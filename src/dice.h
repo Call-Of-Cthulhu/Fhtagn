@@ -1,0 +1,1 @@
+int Roll(const int, const int, const int);
