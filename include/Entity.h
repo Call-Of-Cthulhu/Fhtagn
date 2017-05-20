@@ -1,18 +1,23 @@
 #ifndef ENTITY_H
 #define ENTITY_H
 
-#include "lua.h"
+#include <map>
 
-//"Requires libuuid!"
-// https://linux.die.net/man/3/libuuid
-//#include <uuid/uuid.h>
-// a replacebo for <uuid/uuid.h>
-typedef long long GUID;
+#include <uuid/uuid.h>
+
+typedef std::map<const char *, bool> TagSet;
 
 class Entity
 {
 public:
-    GUID GetGUID(lua_State *);
+    Entity(lua_State *);
+    void GetUUID(uuid_t);
+    TagSet * GetTags();
+private:
+    uuid_t id;
+    TagSet tags;
 };
+
+extern void MakeEntityMetaTable(lua_State *);
 
 #endif /* ENTITY_H */

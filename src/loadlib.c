@@ -596,6 +596,9 @@ static void findloader (lua_State *L, const char *name) {
 
 static int ll_require (lua_State *L) {
   const char *name = luaL_checkstring(L, 1);
+#ifdef DEBUG
+  printf("Lua require (%s)\n", name);
+#endif
   lua_settop(L, 1);  /* LOADED table will be at index 2 */
   lua_getfield(L, LUA_REGISTRYINDEX, LUA_LOADED_TABLE);
   lua_getfield(L, 2, name);  /* LOADED[name] */
@@ -672,6 +675,9 @@ static void modinit (lua_State *L, const char *modname) {
 
 static int ll_module (lua_State *L) {
   const char *modname = luaL_checkstring(L, 1);
+#ifdef DEBUG
+  printf("Lua module (%s)\n", modname);
+#endif
   int lastarg = lua_gettop(L);  /* last parameter */
   luaL_pushmodule(L, modname, 1);  /* get/create module table */
   /* check whether table already has a _NAME field */

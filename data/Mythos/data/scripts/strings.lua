@@ -10,17 +10,30 @@ STRINGS.SKILLS =
     {
         NAME = "人类学",
     },
+    APPRAISE =
+    {
+        NAME = "估价",
+    },
     ARCHAEOLOGY =
     {
         NAME = "考古学",
     },
     ART =
     {
-        NAME = "艺术",
+        --NAME = "艺术",
+        NAME = "艺术/工艺",
     },
     ASTRONOMY =
     {
         NAME = "天文学",
+    },
+    AXE =
+    {
+        NAME = "斧头",
+    },
+    BALLISTICS =
+    {
+        NAME = "炮术",
     },
     BARGAIN =
     {
@@ -29,6 +42,14 @@ STRINGS.SKILLS =
     BIOLOGY =
     {
         NAME = "生物学",
+    },
+    CHAINSAW =
+    {
+        NAME = "电锯",
+    },
+    CHARM =
+    {
+        NAME = "魅惑",
     },
     CHEMISTRY =
     {
@@ -48,7 +69,7 @@ STRINGS.SKILLS =
     },
     CREDIT_RATING =
     {
-        NAME = "信誉",
+        NAME = "信誉等级",
     },
     CTHULHU_MYTHOS =
     {
@@ -57,6 +78,10 @@ STRINGS.SKILLS =
     DISGUISE =
     {
         NAME = "乔装",
+    },
+    DIVING =
+    {
+        NAME = "潜水",
     },
     DODGE =
     {
@@ -78,7 +103,8 @@ STRINGS.SKILLS =
     },
     FAST_TALK =
     {
-        NAME = "快速交谈",
+        --NAME = "快速交谈",
+        NAME = "话术",
     },
     FIRST_AID =
     {
@@ -86,7 +112,7 @@ STRINGS.SKILLS =
     },
     GEOLOGY =
     {
-        NAME = "地理学",
+        NAME = "地质学",
     },
     HIDE =
     {
@@ -106,7 +132,7 @@ STRINGS.SKILLS =
     },
     LIBRARY_USE =
     {
-        NAME = "图书馆利用",
+        NAME = "图书馆使用",
     },
     LISTEN =
     {
@@ -147,19 +173,21 @@ STRINGS.SKILLS =
     },
     OTHER_LANGUAGE =
     {
-        NAME = "其他语言",
+        NAME = "语言(其他)",
     },
     OWN_LANGUAGE =
     {
-        NAME = "母语",
+        NAME = "语言(母语)",
     },
     PERSUADE =
     {
-        NAME = "劝说",
+        --NAME = "劝说",
+        NAME = "说服",
     },
     PHARMACY =
     {
-        NAME = "药剂学",
+        --NAME = "药剂学",
+        NAME = "药学",
     },
     PHOTOGRAPHY =
     {
@@ -167,7 +195,7 @@ STRINGS.SKILLS =
     },
     PHYSICS =
     {
-        NAME = "物理学",
+        NAME = "物理",
     },
     PILOT =
     {
@@ -201,12 +229,12 @@ STRINGS.SKILLS =
     },
     SPOT_HIDDEN =
     {
-        NAME = nil,
+        NAME = "侦查",
     },
     SWIM =
     {
-        NAME = "被水淹没",
-        --NAME = "游泳",
+        --NAME = "被水淹没",
+        NAME = "游泳",
     },
     THROW =
     {
@@ -225,18 +253,248 @@ STRINGS.SKILLS =
     {
         NAME = "机关枪",
     },
-    RIFLE =
+    RIFLE_SHOTGUN =
     {
-        NAME = "步枪",
-    },
-    SHOTGUN =
-    {
-        NAME = "霰弹枪",
+        NAME = "步枪/霰弹枪",
     },
     SMG =
     {
         -- Sub-machine gun
         NAME = "冲锋枪",
+    },
+
+    ACTING =
+    {
+        NAME = "表演",
+    },
+    ANIMAL_HANDLING =
+    {
+        NAME = "动物驯养",
+    },
+    ARTILLERY =
+    {
+        NAME = "炮术",
+    },
+    BOTANY =
+    {
+        NAME = "植物学",
+    },
+    BOW =
+    {
+        NAME = "弓术",
+    },
+    BRAWL =
+    {
+        NAME = "斗殴",
+    },
+    COMPUTOR_USE =
+    {
+        NAME = "电脑利用",
+    },
+    CRYPTOGRAPHY =
+    {
+        NAME = "密码学",
+    },
+    DEMOLITIONS =
+    {
+        NAME = "爆破",
+    },
+    ELECTRONICS =
+    {
+        NAME = "电子学",
+    },
+    FIGHTING =
+    {
+        NAME = "格斗",
+    },
+    FINE_ART =
+    {
+        NAME = "美术",
+    },
+    FIREARMS =
+    {
+        NAME = "射击",
+    },
+    FIREARMS_RS =
+    {
+        NAME = "射击(步枪/霰弹枪)",
+    },
+    FIREARMS_T =
+    {
+        NAME = "射击(或投掷)",
+    },
+    FLAIL =
+    {
+        NAME = "连枷",
+    },
+    FLAMETHROWER =
+    {
+        NAME = "火焰喷射器",
+    },
+    FORENSICS =
+    {
+        NAME = "法医学",
+    },
+    FORGERY =
+    {
+        NAME = "伪造",
+    },
+    GARROTE =
+    {
+        NAME = "绞杀",
+    },
+    HVY_WEAPONS =
+    {
+        NAME = "重武器",
+    },
+    HYPNOSIS =
+    {
+        NAME = "催眠",
+    },
+    INTIMIDATE =
+    {
+        NAME = "恐吓",
+    },
+    MATH =
+    {
+        NAME = "数学",
+    },
+    METEOROLOGY =
+    {
+        NAME = "气象学",
+    },
+    NATURAL_WORLD =
+    {
+        NAME = "自然学",
+    },
+    READ_LIPS =
+    {
+        NAME = "读唇术",
+    },
+    SCIENCE =
+    {
+        NAME = "科学",
+    },
+    SLEIGHT_OF_HAND =
+    {
+        NAME = "手上功夫",
+    },
+    SPEAR =
+    {
+        NAME = "矛",
+    },
+    STEALTH =
+    {
+        NAME = "隐秘行动",
+    },
+    SURVIVAL =
+    {
+        NAME = "生存",
+    },
+    SWORD =
+    {
+        NAME = "剑",
+    },
+    WHIP =
+    {
+        NAME = "鞭子",
+    },
+    ZOOLOGY =
+    {
+        NAME = "动物学",
+    },
+    SOCIAL =
+    {
+        NAME = "社交",
+    },
+    AIRCRAFT =
+    {
+        NAME = "飞行器",
+    },
+    BOAT =
+    {
+        NAME = "船",
+    },
+    ENGINEERING =
+    {
+        NAME = "工程学",
+    },
+    DESERT =
+    {
+        NAME = "沙漠",
+    },
+    OCEAN =
+    {
+        NAME = "海洋",
+    },
+    ARCTIC =
+    {
+        NAME = "极地",
+    },
+    JUNGLE =
+    {
+        NAME = "雨林",
+    },
+    LITERATURE =
+    {
+        NAME = "文学",
+    },
+
+    LATIN =
+    {
+        NAME = "拉丁语",
+    },
+    GERMAN =
+    {
+        NAME = "德语",
+    },
+    ENGLISH =
+    {
+        NAME = "英语",
+    },
+    FRENCH =
+    {
+        NAME = "法语",
+    },
+    ITALIAN =
+    {
+        NAME = "意大利语",
+    },
+    SPANISH =
+    {
+        NAME = "西班牙语",
+    },
+    TURKISH =
+    {
+        NAME = "土耳其语",
+    },
+    CHINESE =
+    {
+        NAME = "汉语",
+    },
+    KOREAN =
+    {
+        NAME = "韩国",
+    },
+    JAPANESE =
+    {
+        NAME = "日语",
+    },
+    TECHNICAL_DRAWING =
+    {
+        NAME = "工程制图",
+    },
+    FARMING =
+    {
+        NAME = "农业",
+    },
+    COMPUTER_USE =
+    {
+        NAME = "计算机运用",
+    },
+    INSTRUMENT =
+    {
+        NAME = "器乐",
     },
 }
 
@@ -294,7 +552,7 @@ STRINGS.OCCUPATIONS =
     },
     DILETTANTE =
     {
-        NAME = "业余者",
+        NAME = "业余艺术爱好者",
         DESC = "The dilettante has so much money that specialists are needed to take care of it. He or she is well educated, though not systematically educated or necessarily accomplished in anything. Money frees the dilettante to be eccentric and outspoken. He or she has had plenty of time to learn how to be charming and sophisticated; what else has been done with that time betrays the dilettante's true character. Lacking financial compulsion, his or her family relations are sometimes very odd. Can be male or female.",
     },
     DOCTOR_OF_MEDICINE =
@@ -414,11 +672,153 @@ STRINGS.OCCUPATIONS =
         NAME = "宗教狂徒",
         DESC = "Intense and vision-driven, scorning an easy life, the zealot agitates for a better life for humanity or for some advantage for the group imagined to be the most worthwhile part of humanity. Some promote their beliefs through violence, but the peaceable majority will be just a implaceable. All dream of the vindication of their beliefs. The zealot is not typically young or old, and a good chance exists for a female counterpart to the male.",
     },
+
+
+    LIBRARIAN =
+    {
+        NAME = "图书馆管理员",
+        DESC = nil,
+    },
+    POLICE_OFFICER =
+    {
+        NAME = "警察",
+        DESC = nil,
+    },
+    PRIVATE_INVESTIGATOR =
+    {
+        NAME = "私人侦探",
+        DESC = nil,
+    },
+    TRIBE_MEMBER =
+    {
+        NAME = "部落成员",
+        DESC = nil,
+    },
 }
 
+-- 个人描述
+STRINGS.PERSONAL_DESCRIPTION = table.pack(
+    "结实的","英俊的","笨拙的",
+    "机灵的","迷人的","娃娃脸",
+    "聪明的","邋遢的","死人脸",
+    "肮脏的","耀眼的","书呆子",
+    "年轻的","疲倦脸","肥胖的",
+    "啤酒肚","长头发","苗条的",
+    "优雅的","稀烂的","矮壮的",
+    "苍白的","阴沉的","平庸的",
+    "乐观的","棕褐色","皱纹人",
+    "古板的","狐臭的","狡猾的",
+    "健壮的","娇俏的","筋肉人",
+    "魁梧的","迟钝的","虚弱的"
+)
 
+-- 思想/信念
+STRINGS.BELIEFS = {
+    [1] = table.pack(
+        "我信仰一位大能。",
+        "我信仰毗沙门天！",
+        "我信仰耶稣基督！",
+        "我信仰海尔·塞拉西一世！"
+    ),
+    [2] = table.pack(
+        "人类无需上帝。",
+        "我是坚定的无神论者！",
+        "我是人文主义者。",
+        "我是世俗主义者！"
+    ),
+    [3] = table.pack(
+        "科学万岁！科学万岁！",
+        "我赞同进化论。",
+        "我支持太空探索！"
+    ),
+    [4] = table.pack(
+        "一切都是命中注定的……",
+        "我相信因果报应。",
+        "我支持种姓制度！",
+        "我相信有超自然存在。"
+    ),
+    [5] = table.pack(
+        "我是社团或秘密结社的一员。",
+        "我是共济会成员。",
+        "我是女协成员。",
+        "我是匿名者黑客组织成员。"
+    ),
+    [6] = table.pack(
+        "社会坏掉林，而我将成为正义的伙伴。",
+        "我要斩除毒品！",
+        "我要根治暴力！",
+        "我要杜绝种族歧视！"
+    ),
+    [7] = table.pack(
+        "神秘依然在。",
+        "我精通占星术。",
+        "我擅长招魂术。",
+        "我能使用塔罗。"
+    ),
+    [8] = table.pack(
+        "诸君，我喜欢政治。",
+        "我是保守党党员。",
+        "我是共产党党员。",
+        "我是自由党党员。"
+    ),
+    [9] = table.pack(
+        "金钱就力量，我的朋友，我将竭尽全力获取我能看到的一切。",
+        "我非常贪婪。",
+        "我极富进取心。",
+        "我非常冷酷无情。"
+    ),
+    [10] = table.pack(
+        "我是竞选者。",
+        "我是激进主义者。",
+        "我支持女权主义。",
+        "我是平等主义家。",
+        "我是工会权柄。"
+    ),
+}
 
+-- 重要之人
+STRINGS.IMPORTANT_PERSON = {
+    [1] = table.pack(
+        "父亲", "母亲", "继父", "继母", "叔叔", "伯伯", "舅舅"
+    ),
+    [2] = table.pack(
+        "祖父", "祖母", "外祖父", "外祖母"
+    ),
+    [3] = table.pack(
+        "哥哥", "弟弟", "姐姐", "妹妹"
+    ),
+    [4] = table.pack(
+        "儿子", "女儿"
+    ),
+    [5] = table.pack(
+        "老公", "老婆", "未婚妻", "未婚夫", "小三", "老王"
+    ),
+    [6] = table.pack(
+        "老师", "师傅"
+    ),
+    [7] = table.pack(
+        "青梅竹马", "同学", "邻居"
+    ),
+    [8] = table.pack(
+        "电影明星", "政治家", "音乐家"
+    ),
+    [9] = table.pack(
+        "%RANDOM_PC%"
+    ),
+    [10] = table.pack(
+        "%RANDOM_NPC%"
+    ),
+}
 
-
-
+local mt = {}
+local function validate(scope, key)
+    if STRINGS[scope][key] == nil then
+        error("STRINGS."..scope.."."..key.." missing!")
+    end
+end
+mt.__index = function(t, k)
+    return getmetatable(t)[k]
+end
+mt.validate = validate
+setmetatable(STRINGS, mt)
 
